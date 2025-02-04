@@ -584,7 +584,6 @@ a.anchor {
 }
 
 .tabs #MSearchBox {
-    position: absolute;
     right: var(--spacing-medium);
 }
 
@@ -2338,6 +2337,16 @@ div.contents .toc,
 .contents .dotgraph,
 .contents .tabs-overview-container {
     scrollbar-width: thin;
+}
+
+dark-mode-toggle {
+    margin: 0;
+    padding: 0.4em;
+}
+
+dark-mode-toggle > svg {
+    width: 1.25em;
+    height: 1.25em;
 }
 
 /*
